@@ -1,0 +1,83 @@
+.input_container{
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    flex-wrap: wrap;    
+}
+.add_todo{
+    font-size: 18px;
+    background-color: azure;
+    color: brown;
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+.todo_item{
+    margin-top: 22px;
+    margin-bottom: 0;
+    background-color: rgb(235, 230, 223);
+    width: 200px;
+    border: solid;
+    border-color: rgb(191, 203, 158);
+    border-radius: 15px;  
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#todo_list{
+    padding-left: 12px;
+    width: 188px;
+    border-radius: 15px;
+}
+#todo_date{
+    width: 184px;
+    border-radius: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: gray;
+
+}
+.delb{
+    color:white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 47px;
+    width: 100px;
+    background-color: rgb(155, 68, 68);
+    margin-top: 16px;
+    border: solid;
+    border-color: white;
+    border-radius: 15px;
+}
+.addb{
+    color:white;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 43px;
+    width: 100px;
+    background-color: rgb(83, 133, 83);
+    border: solid;
+    border-color: white;
+    border-radius: 15px;
+}
+body{
+    background-color: rgb(88, 125, 181);
+}
+.Container{
+    margin-top: 130px;
+    flex-direction: row;
+    background-color: azure;
+    width: 600px;
+    justify-self: center;
+    justify-items: center;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px 10px rgb(57, 57, 57);
+    padding-bottom: 50px;
+}
+h2{
+    color:rgb(71, 71, 71);
+}
